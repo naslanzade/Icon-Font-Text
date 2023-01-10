@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.main{
+    background-image: linear-gradient(rgb(23, 86, 181) ,rgb(149, 179, 224));
+    width: 100%;
+    height: 770px;
+    
+}
+
+.main .navbar{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;    
+}
+
+.main .navbar .landing{
+    margin-left: 80px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main .navbar ul{
+    display: flex;
+    margin-left: 70px;
+    
+}
+
+
+.main .navbar li{
+    display: flex;
+    align-items: center;
+    margin-left: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.main .navbar .started{
+    position: relative;
+    right: 270px;
+    color: white;
+    background-color: rgb(23, 86, 181);
+    width: 130px;
+    height: 40px;
+    border-color: white;
+    border-radius:5px;
+}
+
+.main .navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main .content{
+    position: relative;
+    display: flex;
+    top: 250px;    
+}
+
+
+.main .content .left-side .fly{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    position: relative;
+    left: 250px;
+    color: white;
+}
+
+
+.main .content .left-side .description{
+    position: relative;
+    left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 420px;
+    top: 10px;
+    color: rgba(236, 230, 230, 0.983);
+}
+
+.main .content .left-side a{
+    text-decoration: none;
+    color:  rgba(198, 190, 190, 0.983);
+}
+
+.main .content .left-side .pricing{
+    position: relative;
+    left: 270px;
+    top: 40px;
+    width: 170px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    border-radius: 50px;
+    border-color: rgb(63, 211, 63);
+    background-color: rgb(63, 211, 63);
+    color: white;
+}
+
+
+
+.main .content .right-side{
+    width: 450px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-color: black;
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+    background-color: white;
+}
+
+
+.main .content .right-side .register{
+    position: relative;
+    text-align: center;
+    top: 70px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main .content .right-side .fullname{
+    position: relative;
+    top: 90px;
+    width: 270px;
+    height: 40px;
+    left: 100px;
+    background-color:rgb(234, 237, 240); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(225, 219, 219);
+    border-radius: 2px;
+}
+
+.main .content .right-side .email{
+    position: relative;
+    top: 100px;
+    width: 270px;
+    height: 40px;
+    left: 100px;
+    background-color:rgb(234, 237, 240); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(225, 219, 219);
+    border-radius: 2px;
+}
+
+.main .content .right-side .email1{
+    position: relative;
+    top: 110px;
+    width: 270px;
+    height: 40px;
+    left: 100px;
+    background-color:rgb(234, 237, 240);  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(225, 219, 219);
+    border-radius: 2px;
+}
+
+.main .content .right-side select{
+    position: relative;
+    top: 120px;
+    width: 270px;
+    height: 40px;
+    left: 100px;
+    background-color:rgb(234, 237, 240); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(225, 219, 219);
+    border-radius: 2px;
+}
+
+.main .content .right-side .registration{
+    position: relative;
+    top: 140px;
+    width: 270px;
+    height: 40px;
+    left: 100px;
+    background-color:rgb(35, 80, 202); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(35, 80, 202);
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.white{
+    position: relative;
+    content: "";
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    transform: rotate(-2.5deg);
+    margin-left: 1px;
+    margin-top: -40px;  
+        
+}
